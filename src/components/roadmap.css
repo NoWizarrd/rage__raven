@@ -1,0 +1,284 @@
+.container {
+    position: relative;
+    width: 60%;
+    top: 50%;
+    margin-top: 30vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  
+  /* Make the image responsive */
+  .container img {
+    width: 100%;
+    height: auto;
+  }
+  .container h1 {
+    margin: 0px;
+    z-index: -1;
+    font-family: 'Roboto', sans-serif;
+    color: #F2F2F2;
+    font-size: 3rem;
+    background: none;
+    border: none;
+    text-shadow: 0.3em 0.4em 2px #402525;
+  }
+  
+  /* Style the button and place it in the middle of the container/image */
+  .container .btn1 {
+    position: absolute;
+    top: 68%;
+    left: 14%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background: none;
+    color: white;
+    font-size: 1rem;
+    padding: 20px 22px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .container .btn2 {
+    position: absolute;
+    top: 68%;
+    left: 31%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background: none;
+    color: white;
+    font-size: 1rem;
+    padding: 20px 22px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .container .btn3 {
+    position: absolute;
+    top: 68%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background: none;
+    color: white;
+    font-size: 1rem;
+    padding: 20px 22px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .container .btn4 {
+    position: absolute;
+    top: 68%;
+    left: 68%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background: none;
+    color: white;
+    font-size: 1rem;
+    padding: 20px 22px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .container .btn5 {
+    position: absolute;
+    top: 68%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background: none;
+    color: white;
+    font-size: 1rem;
+    padding: 20px 22px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .container .disc1 {
+    border: solid #F2F2F2 3px;
+    border-radius: 8px;
+
+    background: #2c2c2c;
+    position: absolute;
+    padding: 10px;
+      margin: 0px;
+      color: #c4c4c4;
+      transition: 3s;
+      font-size: 0.9rem;
+      line-height: 120%;
+      top: 150px;
+      margin-left: 2vw;
+      max-width: 18vw;
+      text-shadow: 0.3em 0.4em 2px #361818;
+  }
+  .container .disc2 {
+    border: solid #F2F2F2 3px;
+    border-radius: 8px;
+    padding: 10px;
+    background: #2c2c2c;
+    position: absolute;
+    top: 150px;
+    left: 7vw;
+      margin: 0px;
+      color: #c4c4c4;
+      transition: 3s;
+      font-size: 0.9rem;
+      line-height: 120%;
+      margin-left: 2vw;
+      width: 20vw;
+      text-shadow: 0.3em 0.4em 2px #361818;
+}
+.container .disc3 {
+    border: solid #F2F2F2 3px;
+    border-radius: 8px;
+    padding: 10px;
+    background: #2c2c2c;
+    position: absolute;
+    top: 150px;
+    left: 15vw;
+      margin: 0px;
+      color: #c4c4c4;
+      transition: 3s;
+      font-size: 0.9rem;
+      line-height: 120%;
+      margin-left: 2vw;
+      width: 20vw;
+      text-shadow: 0.3em 0.4em 2px #361818;
+}
+.container .disc4 {
+    border: solid #F2F2F2 3px;
+    border-radius: 8px;
+    padding: 10px;
+    background: #2c2c2c;
+    position: absolute;
+    top: 150px;
+    left: 23vw;
+      margin: 0px;
+      color: #c4c4c4;
+      transition: 3s;
+      font-size: 0.9rem;
+      line-height: 120%;
+      margin-left: 2vw;
+      width: 20vw;
+      text-shadow: 0.3em 0.4em 2px #361818;
+}
+.container .disc5 {
+    border: solid #F2F2F2 3px;
+    border-radius: 8px;
+    padding: 10px;
+    background: #2c2c2c;
+    position: absolute;
+    top: 150px;
+    left: 31vw;
+      margin: 0px;
+      color: #c4c4c4;
+      transition: 3s;
+      font-size: 0.9rem;
+      line-height: 120%;
+      margin-left: 2vw;
+      width: 20vw;
+      text-shadow: 0.3em 0.4em 2px #361818;
+}
+
+@media (max-width: 1300px){
+  .container h1 {
+    font-size: 2rem;
+  }
+  .container .disc1 {
+    padding: 10px;
+    top: 120px;
+      margin: 0px;
+      font-size: 0.8rem;
+      line-height: 120%;
+      margin-left: 2vw;
+      width: 30vw;
+}
+  .container .disc2 {
+    padding: 10px;
+    top: 120px;
+      margin: 0px;
+      font-size: 0.8rem;
+      line-height: 120%;
+      margin-left: 2vw;
+      width: 32vw;
+}
+.container .disc3 {
+  padding: 10px;
+  top: 120px;
+    margin: 0px;
+    font-size: 0.8rem;
+    line-height: 120%;
+    margin-left: 2vw;
+    width: 22vw;
+}
+.container .disc4 {
+  padding: 10px;
+  top: 120px;
+    margin: 0px;
+    font-size: 0.8rem;
+    line-height: 120%;
+    margin-left: 2vw;
+    width: 22vw;
+}
+.container .disc5 {
+  padding: 10px;
+  top: 120px;
+    margin: 0px;
+    font-size: 0.8rem;
+    line-height: 120%;
+    margin-left: 2vw;
+    width: 22vw;
+}
+}
+
+@media (max-width: 750px){
+  .container h1 {
+    font-size: 1.2rem;
+  }
+  .container .disc1 {
+    padding: 10px;
+    top: 70px;
+      margin: 0px;
+      font-size: 0.6rem;
+      line-height: 130%;
+      margin-left: 2vw;
+      min-width: 30vw;
+}
+  .container .disc2 {
+    padding: 10px;
+    top: 70px;
+      margin: 0px;
+      font-size: 0.6rem;
+      line-height: 130%;
+      margin-left: 2vw;
+      width: 30vw;
+}
+.container .disc3 {
+  padding: 10px;
+  top: 70px;
+    margin: 0px;
+    font-size: 0.6rem;
+    line-height: 130%;
+    margin-left: 2vw;
+    width: 30vw;
+}
+.container .disc4 {
+  padding: 10px;
+  top: 70px;
+    margin: 0px;
+    font-size: 0.6rem;
+    line-height: 130%;
+    margin-left: 2vw;
+    width: 30vw;
+}
+.container .disc5 {
+  padding: 10px;
+  top: 70px;
+    margin: 0px;
+    font-size: 0.6rem;
+    line-height: 130%;
+    margin-left: 2vw;
+    width: 30vw;
+}
+}

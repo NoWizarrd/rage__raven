@@ -1,0 +1,96 @@
+.carousel-3d {
+    padding: 20px;
+    margin-bottom: 80vh;
+    margin-top: 20vh;
+    -webkit-perspective: 500px;
+    perspective: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+.carousel-3d > * {
+    flex: 0 0 auto;
+}
+.carousel-3d figure {
+    margin: 0;
+    width: 50%;
+    cursor: pointer;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s;
+}
+.carousel-3d figure h1{
+    margin: 0;
+    color: white;
+    padding: 0 0 10px 0;
+    font-weight: 300;
+    text-align: center;
+    cursor: default;
+}
+
+.carousel-3d figure img,
+.carousel-3d figure div {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0;
+}
+.carousel-3d figure div:not(:first-of-type),
+.carousel-3d figure img:not(:first-of-type) {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.carousel-3d nav button {
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+    font-family: 'Roboto', sans-serif;
+	left: 10px;
+	cursor: pointer;
+    font-size: 1rem;
+	color: #ffffff;
+	border: none;
+    border-radius: 5px;
+	padding: 5px 10px;
+	font-weight: bold;
+	transition: all .3s ease;
+    background: url(../pictures/strelka_vlevo.png) 50% 50% no-repeat;
+    background-size: contain;
+    width: 60px;
+    height: 60px;
+}
+.carousel-3d nav button.next {
+	left: auto;
+	right: 20px;
+    background: url(../pictures/strelka_vpravo.png) 50% 50% no-repeat;
+    background-size: contain;
+    width: 60px;
+    height: 60px;
+}
+
+@media (max-width: 1100px) {
+    .carousel-3d figure h1{
+        font-size: 1.5rem;
+    } 
+
+    .carousel-3d nav button{
+        width: 30px;
+        height: 30px;
+    }
+
+    .carousel-3d nav button.next{
+        width: 30px;
+        height: 30px;
+        right: 10px;
+    }
+}
+@media (max-width: 600px) {
+    .carousel-3d figure h1{
+        font-size: 1rem;
+    } 
+
+
+}
